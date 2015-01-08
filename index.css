@@ -1,8 +1,9 @@
 * {
   border: 1px dotted red;
 }
-
-
+body {
+  margin: 5px;
+}
 
 header {
   background-color: #2E9AFE;
@@ -82,7 +83,6 @@ article {
   display: inline-block;
   vertical-align: top;
 
-
 }
 
 section, aside {
@@ -138,9 +138,138 @@ aside {
   margin: 1px 250px 1px 1px;
 }
 
-.boxed img, .boxedh5, .boxed nav {
+footer {
+  background-color: red;
+}
+
+footer h3 {
+  color: black;
+  font-size: 35px;
+  margin: 1px 350px 1px 350px;
+  text-align: center;
+}
+
+.boys img {
+  width: 300px;
+  height: 200px;
+  padding: 0;
+}
+
+.surfdude, .surfdudesbeer, .surfdude2, .surfdude3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.surfdude .text1 {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  width: 200px;
+}
+
+.surfdude {
+  position: relative;
+}
+
+.text1{
+  font-size: 22px;
+  padding: 0;
+  text-align: center;
+}
+
+.surfdudesbeer .text2 {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  width: 200px;
+}
+
+.surfdudesbeer {
+  position: relative;
+}
+
+.text2  {
+  font-size: 22px;
+  padding: 0;
+  text-align: center;
+}
+
+.surfdude2 .text3 {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  width: 200px;
+}
+
+.surfdude2 {
+  position: relative;
+}
+
+.text3  {
+  font-size: 22px;
+  padding: 0;
+  text-align: center;
+}
+
+
+.surfdude3 .text4 {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  width: 200px;
+}
+
+.surfdude3 {
+  position: relative;
+}
+
+.text4  {
+  font-size: 22px;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+footer nav {
+  padding: 0;
+}
+
+
+.boxed img, .boxed h5, .boxed nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.boxed img {
+  width: 100px;
+}
+
+.boxed h5 {
+  width: 300px;
+  margin: 40px 5px 5px 5px;
+  font-size: 13px;
+  color: white;
+}
+
+.boxed nav {
+  width: 100px;
+  margin: 5px 5px 5px 300px;
   display: inline-block;
 }
+
+.boxed a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+}
+
+.boxed ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
 
 .Paddle {
   padding: 10px;
