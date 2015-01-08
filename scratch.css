@@ -1,29 +1,18 @@
-.header{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: url
+
+* {
+  border: 1px dotted red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.beach {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0;
-    margin: 0;
+header {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient (
+    rgba (64, 134, 191, 0.5)
+    rgba (64, 134, 191, 0.5)
+    ),
+  background-image: url(http://www.treasurebeachhotel.com/images/property_assets/treasure/page-bg.jpg)
 
-    /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
-  }
-
-.beach img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 50%;
-    min-height: 50%;
-  }
+}

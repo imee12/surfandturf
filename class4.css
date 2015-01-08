@@ -1,0 +1,18 @@
+.kwicks-css li {
+  float: left;
+  position: relative;
+  display: inline-block;
+  height: 150px;
+  min-width: 30px;
+  width: 40px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: red;
+  -moz-transition: all .8s ease;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+.kwicks-css li:hover, {
+.kwicks-css li:active, {width;150px; background-color: black;}
+}
