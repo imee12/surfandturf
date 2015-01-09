@@ -1,9 +1,10 @@
+/*
 * {
   border: 1px dotted red;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }
+  }*/
 
 
 header {
@@ -86,7 +87,7 @@ nav li {
   color: black;
 }
 
-.upnav li:hover {
+.beach a:hover, .beach li:hover{
   background: grey;
 }
 
@@ -110,9 +111,26 @@ h2 nav {
   margin: 5px, 45px, 5px, 5px;
 }
 
+section a:hover {
+  background: grey;
+}
+
 article {
   font-size: 17px;
   color: black;
+  font-family: "Lato";
+}
+
+h7 {
+  font-family: "Roboto-Condensed", sans-serif;
+  font-size: 33px;
+  color: #499DF5;
+  margin: 1px 45px 1px 12px;
+}
+
+aside a:hover{
+    background: grey;
+  }
 
 }
 
@@ -160,14 +178,6 @@ aside {
   background-size: cover;
 }
 
-/*border-radius: 98%;
-height:25px;
-width: 25px;
-background-image: url("images/slothglasses.jpg");
-background-size: cover;
-
-}
-*/
 .sidenav a {
   color: green;
   margin: 5px 35px 5px 35px;
@@ -197,26 +207,40 @@ background-size: cover;
 }
 
 footer {
-  background-color: blue;
+  background-color: #739AC5;
 }
 
 footer h3 {
   color: black;
   font-size: 35px;
+  font-family: 'Trebuchet MS', sans-serif;
   margin: 1px 350px 1px 350px;
   text-align: center;
 }
 
 .boys img {
-  width: 300px;
+  width: 310px;
   height: 200px;
+  margin: 1px;
   padding: 0;
+  display: inline-block;
 }
+/*
+.boys p{
+  font-size: 15px;
+  color: green;
+  font-family: "Lato", sans-serif;
+
+}*/
 
 .surfdude, .surfdudesbeer, .surfdude2, .surfdude3 {
   display: inline-block;
   vertical-align: top;
+  /*width: 300px;
+  height: 200px;
+  padding: 0;*/
 }
+
 
 .surfdude .text1 {
   position: absolute;
@@ -225,9 +249,13 @@ footer h3 {
   width: 200px;
 }
 
+/*
 .surfdude {
   position: relative;
-}
+  /*background-repeat: no-repeat;
+  background-image: url("images/surfdude.jpeg")
+}*/
+
 
 .text1{
   font-size: 22px;
@@ -241,10 +269,12 @@ footer h3 {
   left: 10px;
   width: 200px;
 }
-
+/*
 .surfdudesbeer {
   position: relative;
-}
+  /*background-repeat: no-repeat;
+  background-image: url("images/surfdudesbeer.jpeg")
+}*/
 
 .text2  {
   font-size: 22px;
@@ -258,10 +288,13 @@ footer h3 {
   left: 10px;
   width: 200px;
 }
-
+/*
 .surfdude2 {
   position: relative;
-}
+  /*background-repeat: no-repeat;
+  background-image: url("images/surfdude2.jpeg")
+}*/
+
 
 .text3  {
   font-size: 22px;
@@ -276,10 +309,13 @@ footer h3 {
   left: 10px;
   width: 200px;
 }
-
+/*
 .surfdude3 {
   position: relative;
-}
+/*  background-repeat: no-repeat;
+  background-image: url("images/surfdude3.jpeg")
+}*/
+
 
 .text4  {
   font-size: 22px;
