@@ -218,36 +218,49 @@ footer h3 {
   text-align: center;
 }
 
-.boys img {
+/*This makes images same size.*/
+.boys img{
   width: 310px;
   height: 200px;
   margin: 1px;
   padding: 0;
   display: inline-block;
-}
-/*
-.boys p{
-  font-size: 15px;
-  color: green;
-  font-family: "Lato", sans-serif;
 
-}*/
+
+}
+/*Text for boys words.*/
+.boys {
+  position: relative;
+}
+
+.boys p{
+  font-size: 22px;
+  width: 40px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  /*display: inline-block;*/
+  /*text-align: center;*/
+  vertical-align: top;
+  margin: 0px 5px 25px 15px;
+  position: absolute;
+  top: 105px;
+
+
+}
+
+
+
 
 .surfdude, .surfdudesbeer, .surfdude2, .surfdude3 {
+
   display: inline-block;
   vertical-align: top;
-  /*width: 300px;
+  /*width: 250px;
   height: 200px;
   padding: 0;*/
 }
 
 
-.surfdude .text1 {
-  position: absolute;
-  top: 110px;
-  left: 10px;
-  width: 200px;
-}
 
 /*
 .surfdude {
@@ -257,37 +270,22 @@ footer h3 {
 }*/
 
 
-.text1{
-  font-size: 22px;
-  padding: 0;
-  text-align: center;
+/*
+.surfdudesbeer p{
+  /*position: absolute
+  top: 500px;
+  left: 10px;
+  width: 300px;
 }
 
-.surfdudesbeer .text2 {
-  position: absolute;
-  top: 110px;
-  left: 10px;
-  width: 200px;
-}
-/*
+
 .surfdudesbeer {
   position: relative;
   /*background-repeat: no-repeat;
   background-image: url("images/surfdudesbeer.jpeg")
 }*/
 
-.text2  {
-  font-size: 22px;
-  padding: 0;
-  text-align: center;
-}
 
-.surfdude2 .text3 {
-  position: absolute;
-  top: 110px;
-  left: 10px;
-  width: 200px;
-}
 /*
 .surfdude2 {
   position: relative;
@@ -296,18 +294,13 @@ footer h3 {
 }*/
 
 
-.text3  {
-  font-size: 22px;
-  padding: 0;
-  text-align: center;
-}
 
-
-.surfdude3 .text4 {
+/*
+.boys p{
   position: absolute;
-  top: 110px;
+  top: 500px;
   left: 10px;
-  width: 200px;
+  width: 500px;
 }
 /*
 .surfdude3 {
@@ -317,27 +310,23 @@ footer h3 {
 }*/
 
 
-.text4  {
-  font-size: 22px;
-  padding: 0;
-  text-align: center;
-}
-
-
-
 footer nav {
   padding: 0;
 }
 
+footer a:hover{
+  color: #C6E2FF;
+  opacity: 0.5;
+}
 
 .boxed img, .boxed h5, .boxed nav {
   display: inline-block;
   vertical-align: top;
 }
-
+/*
 .boxed img {
-  width: 100px;
-}
+  width: 120px;
+}*/
 
 .boxed h5 {
   width: 300px;
@@ -346,9 +335,10 @@ footer nav {
   color: white;
 }
 
+
 .boxed nav {
-  width: 100px;
-  margin: 5px 5px 5px 300px;
+  /*width: 100px;*/
+  margin: 5px 5px 5px 600px;
   display: inline-block;
 }
 
@@ -357,12 +347,12 @@ footer nav {
   display: inline-block;
   color: white;
   vertical-align: top;
-}
+
 
 .boxed ul li {
   display: inline-block;
   vertical-align: top;
-}
+}*/
 
 
 .Paddle {
