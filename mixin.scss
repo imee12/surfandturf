@@ -1,0 +1,13 @@
+@mixin header($width: 100%, $height:500px){
+
+  width: 100%;
+  height: 500px;
+}
+
+@mixin hover($background-color: gray) {
+  background-color: gray;
+}
+
+@mixin body($margin: 5px){
+  margin: 5px;
+}
